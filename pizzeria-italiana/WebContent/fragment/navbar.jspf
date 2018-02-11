@@ -1,0 +1,18 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
+	<nav class="nav nav-pills nav-justified" >
+	  <a id="a-homepage" class="nav-item nav-link active" href="${pageContext.request.contextPath}/main.jsp" >Strona główna</a>
+	  <a id="a-pizzas" class="nav-item nav-link not-active" href="${pageContext.request.contextPath}/pizzas.jsp">Pizza</a>
+	  <a id="a-pastas" class="nav-item nav-link not-active" href="${pageContext.request.contextPath}/pastas.jsp">Makarony</a>
+	  <a id="a-salads" class="nav-item nav-link not-active" href="${pageContext.request.contextPath}/salads.jsp">Sałatki</a>
+	  <a id="a-drinks" class="nav-item nav-link not-active" href="${pageContext.request.contextPath}/drinks.jsp">Napoje</a>
+	  <a id="a-contact" class="nav-item nav-link not-active" href="${pageContext.request.contextPath}/contact.jsp">Kontakt</a>
+	</nav>
+	
+	<div class="card">
+	  <img id="top-image" class="card-img-top" src="resources/pictures/pizzeria.jpg" alt="Card image cap" style="height: 400px;">
+	</div>
+	
+
